@@ -9,7 +9,7 @@ import { Country, ranktracking_withAPi } from './services/constants'
 
 const Layout = () => {
     // localStorage data
-    const prdatal = localStorage.getItem('prId').split(',');
+    const prdatal = localStorage.getItem('prId');
     const webURL = localStorage.getItem('websiteurl')
 
     // redux dispatecher
