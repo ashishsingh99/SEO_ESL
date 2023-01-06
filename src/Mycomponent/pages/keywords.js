@@ -36,7 +36,7 @@ const Keywords = () => {
             })
 
 
-        axios.get(`https://a10a-2405-201-4041-c851-ac6c-a2cd-41ae-5697.in.ngrok.io/api/user/KeywordGetId/`,Headers)
+        axios.get(`http://43.204.238.20:8000/api/user/KeywordGetId/`,Headers)
             .then((resGet) => {
                 console.log(resGet)
             })
