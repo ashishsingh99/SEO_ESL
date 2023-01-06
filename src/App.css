@@ -1,0 +1,90 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: #455197;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1.5px solid;
+    border-radius: 4px;
+    border-color: #dcdcdc;
+    font-size: 13px;
+}
+
+input:focus {
+    outline: none;
+    border: 1.5px solid #455197;
+}
+
+.table td {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.table select {
+    box-shadow: none !important;
+    min-width: 100px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+select:focus {
+    outline: none;
+}
+
+.cmc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cmd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cmd-b {
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.v_All {
+    text-align: center;
+    color: #455197;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cm-btn {
+    padding: 0.3rem 0.75rem;
+    color: #fff;
+    background-color: #455197;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cm-btn-b {
+    padding: 0.3rem 0.75rem;
+    color: #455197;
+    border: 1px solid #455197;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    font-weight: 500;
+}
